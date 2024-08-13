@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 #Directory path name where the face images are stored.
-path = 'images'
+path = './images/'
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 #Haar cascade file
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
